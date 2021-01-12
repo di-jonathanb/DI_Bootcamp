@@ -1,0 +1,23 @@
+body {
+   display: flex;
+   justify-content: space-between; 
+}
+
+.column {
+   display: flex;
+   flex-direction: column; 
+   justify-content: space-between;
+}
+
+.row {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.square {
+   border: 1px solid;
+   width:  100px;
+   height: 100px;
+   margin: 10px;
+}
